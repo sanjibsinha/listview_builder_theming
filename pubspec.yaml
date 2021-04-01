@@ -73,6 +73,14 @@ flutter:
         - asset: assets/fonts/LibreBaskerville-Regular.ttf
         - asset: assets/fonts/LibreBaskerville-Bold.ttf
           weight: 700
+
+    - family: SyneMono
+      fonts:
+        - asset: assets/fonts/SyneMono-Regular.ttf
+
+    - family: TrainOne
+      fonts:
+        - asset: assets/fonts/TrainOne-Regular.ttf          
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

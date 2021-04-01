@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'first_text_view.dart';
+import 'second_text_view.dart';
 import 'about_app.dart';
-import 'what_to_do.dart';
+// import 'what_to_do.dart';
 
 class LBTAFirstView extends StatelessWidget {
   const LBTAFirstView({Key key}) : super(key: key);
@@ -10,7 +12,8 @@ class LBTAFirstView extends StatelessWidget {
     return ListView(
       children: [
         AboutApp(),
-        WhatToDo(),
+        FirstTextView(),
+        SecondTextView(),
       ],
     );
   }
